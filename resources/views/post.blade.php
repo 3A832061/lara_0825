@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
 @extends('layouts.master')
 
 @section('title', 'Clean Blog - Sample Post')
 
-
-<body>
 @section('content')
   <!-- Page Header -->
   <header class="masthead" style="background-image: url('img/post-bg.jpg')">
@@ -71,10 +66,5 @@
       </div>
     </div>
   </article>
-
-  <hr>
   @endsection
 
-</body>
-
-</html>

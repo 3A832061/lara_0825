@@ -1,6 +1,5 @@
 @extends('layouts.master')
 @section('title','Clean Blog - Contact')
-<body>
     @section('content')
   <!-- Page Header -->
   <header class="masthead" style="background-image: url('img/contact-bg.jpg')">
@@ -61,10 +60,4 @@
       </div>
     </div>
   </div>
-
-  <hr>
-
     @endsection
-</body>
-
-</html>
