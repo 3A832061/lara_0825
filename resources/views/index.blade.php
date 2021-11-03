@@ -1,6 +1,8 @@
- @extends('layouts.master')
+<html>
+@extends('layouts.master')
 
  @section('title', 'Clean Blog')
+ <body>
  @section('content')
   <!-- Page Header -->
   <header class="masthead" style="background-image: url('img/home-bg.jpg')">
@@ -82,3 +84,5 @@
     </div>
   </div>
  @endsection
+</body>
+ </html>
