@@ -3,6 +3,7 @@
 
 @extends('layouts.master')
 @section('title,Clean Blog - About')
+    @section('content')
 <body>
 
   <!-- Page Header -->
@@ -35,5 +36,5 @@
 
 
 </body>
-
+    @endsection
 </html>
