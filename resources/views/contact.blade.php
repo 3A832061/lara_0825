@@ -65,11 +65,6 @@
   <hr>
 
     @endsection
-
-  <!-- Contact Form JavaScript -->
-    <script src="{{asset('jqBootstrapValidation.js')}}"></script>
-    <script src="{{asset('contact_me.js')}}"></script>
-
 </body>
 
 </html>
