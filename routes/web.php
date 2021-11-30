@@ -1,7 +1,7 @@
 <?php
 use App\Http\Controllers\PostsController;
 use Illuminate\Support\Facades\Route;
-
+use App\Models\Post;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    Post::create([
+        'title' => 'test title',
+        'content' => 'test content',
+    ]);
     return view('welcome');
 });
 
