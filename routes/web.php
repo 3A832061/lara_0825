@@ -27,8 +27,14 @@ Route::get('/', function () {
     /*$posts = Post::all();
     dd($posts);*/
 
+    /*$post = Post::find(1);
+    dd($post);*/
+
     $post = Post::find(1);
-    dd($post);
+    $post->update([
+        'title' => 'updated title',
+        'content' => 'updated content',
+    ]);
 
     return view('welcome');
 });
