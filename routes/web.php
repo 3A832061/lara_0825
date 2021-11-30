@@ -24,9 +24,12 @@ Route::get('/', function () {
     $post->content = 'test content';
     $post->save();*/
 
-    $posts = Post::all();
-    dd($posts);
-    
+    /*$posts = Post::all();
+    dd($posts);*/
+
+    $post = Post::find(1);
+    dd($post);
+
     return view('welcome');
 });
 
