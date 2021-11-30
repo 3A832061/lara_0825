@@ -18,10 +18,15 @@ Route::get('/', function () {
         'title' => 'test title',
         'content' => 'test content',
     ]);*/
-    $post = new Post();
+
+    /*$post = new Post();
     $post->title = 'test title';
     $post->content = 'test content';
-    $post->save();
+    $post->save();*/
+
+    $posts = Post::all();
+    dd($posts);
+    
     return view('welcome');
 });
 
