@@ -60,6 +60,11 @@ Route::get('/', function () {
     //$lastPost = Post::orderBy('id', 'DESC')->first();
     //dd($lastPost);
 
+    $post = Post::find(1);
+    foreach($post->comments as $comment) {
+        echo $comment->content.'<br>';
+    }
+
     return view('welcome');
 });
 
